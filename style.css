@@ -23,11 +23,15 @@ body{
     background-color: white;
 }
 
-img{
+.mImg{
     width: 20rem;
     display: inline-block;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
+}
+
+.dImg{
+    display: none;
 }
 
 p{
@@ -117,7 +121,7 @@ a:visited{
 
 
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     img {
       width: 100%;
       height: auto;
@@ -125,5 +129,17 @@ a:visited{
     p {
         font-size: 1.2rem;
       }
-  }
+}
 
+@media screen and (min-width: 756px) {
+    .mImg{
+        display: none;
+    }
+
+    .dImg{
+        display: block;
+       
+    }
+
+    
+}
