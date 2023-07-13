@@ -21,6 +21,8 @@ body{
     width: fit-content;
     border-radius: 0.5rem;
     background-color: white;
+
+    
 }
 
 .mImg{
@@ -136,10 +138,28 @@ a:visited{
         display: none;
     }
 
-    .dImg{
-        display: block;
-       
+    .container{
+        width: 38rem;
+        height: 31rem;
     }
 
-    
+    .dImg{
+        display: block;
+       position: absolute;
+       width: 18rem;
+       height: 31rem;
+       border-top-left-radius: 0.5rem;
+       border-bottom-left-radius: 0.5rem;
+    }
+
+   .txt{
+    position: relative;
+    left: 37vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   }
+
+   .productName{
+    width: 12rem;
+   }
 }
