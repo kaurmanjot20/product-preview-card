@@ -109,7 +109,7 @@ a:link{
 }
  
 a:hover{ 
-    color: hsl(159, 34%, 30%); 
+    color: hsl(158, 88%, 17%); 
     
 }
  
@@ -141,6 +141,16 @@ a:visited{
     .container{
         width: 38rem;
         height: 31rem;
+        position: absolute;
+    }
+
+    .txt{
+        position: inherit;
+    left: 37vh;
+    width: 100%;
+    height: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .dImg{
@@ -152,12 +162,7 @@ a:visited{
        border-bottom-left-radius: 0.5rem;
     }
 
-   .txt{
-    position: relative;
-    left: 37vh;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-   }
+   
 
    .productName{
     width: 12rem;
