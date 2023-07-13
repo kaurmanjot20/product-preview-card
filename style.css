@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caprasimo&family=Fraunces:wght@500&family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 1rem;
+    background-color: hsl(32, 63%, 87%);
+}
+
+.container{
+    
+    width: fit-content;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+img{
+    width: 20rem;
+    display: inline-block;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+p{
+    width: 17rem;
+    padding: 1rem;
+}
+
+.productType{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+.productName{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.productDetail{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size:xx-large;
+    color:  hsl(158, 36%, 37%);
+}
+
+.cost{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: small;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+
+.btn{
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    width: 17rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+}
+
+.btn:hover{
+    background-color: hsl(159, 34%, 30%);
+}
+
+svg{
+    padding-right: 0.6rem;
+}
+
+.attribution{
+    font-size: smaller;
+    color: gray;
+}
+ 
+a:link{ 
+    text-decoration: none; 
+}
+ 
+a:hover{ 
+    color: hsl(159, 34%, 30%); 
+    
+}
+ 
+a:active{ 
+    color: rgb(71, 167, 69); 
+}
+
+a:visited{ 
+    color:  hsl(159, 34%, 30%); 
+}
+
+
+
+@media (max-width: 375px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    p {
+        font-size: 1.2rem;
+      }
+  }
+
